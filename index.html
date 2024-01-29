@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/grid.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/40044af645.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favpardis.png" type="image/x-icon">
+    <title>pardis</title>
+</head>
+
+<body>
+    <img src="images/logo.png" id="beneathlogo">
+
+
+    <div id="loader">
+        <img src="images/giphy.gif" width="100px" height="100px">
+    </div>
+    <div class="maincontainer">
+
+
+
+
+        <div id="progress">
+            <div id="progressbar"></div>
+        </div>
+        <a href="#">
+            <i class="fa-solid fa-circle-arrow-up" id="top"></i>
+        </a>
+        <header>
+            <div class="row">
+                <div class="col-3 logo">
+                    <p>پردیس کتاب</p>
+                    <img src="images/logo.png" id="logo">
+                </div>
+                <div class="col-5 r-col-5">
+                    <div id="search">
+                        <input type="search" placeholder="کتاب، نویسنده، مترجم و ناشر">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </div>
+                    <div id="purchase">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>سبد خرید</p>
+                    </div>
+
+
+                </div>
+                <div class="col-4 r-col-4">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-cart-shopping">
+                            </i>
+                            <a href="#">سبد من</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-scale-balanced"></i>
+                            <a href="#">مقایسه </a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-heart "></i>
+                            <a href="#">علاقه مندی ها </a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-lock"></i>
+                            <a href="#">ورود </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- ----------nav-------- -->
+        <div class="nav">
+            <div class="row">
+                <div class="col-3"></div>
+
+                <div class="col-9 r-col-9">
+                    <img src="images/1.png" width="30px" height="30px" id="dis">
+                    <ul id="menudis">
+                        <li><a href="#">کتاب</a><i class="fa-solid fa-caret-down"></i>
+                            <ul>
+                                <li><a href="#">ادبیات</a></li>
+                                <li><a href="#">تاریخ</a></li>
+                                <li><a href="#">دین و عرفان</a></li>
+                                <li><a href="#"> فلسفه </a></li>
+                                <li><a href="#"> جامعه شناسی </a></li>
+                                <li><a href="#"> سیاست </a></li>
+                                <li><a href="#"> اقتصاد </a></li>
+                                <li><a href="#"> علم </a></li>
+                                <li><a href="#"> هنر </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">کتاب کودک و نوجوان</a><i class="fa-solid fa-caret-down"></i>
+                            <ul>
+                                <li><a href="#">رمان کودک</a></li>
+                                <li><a href="#">نوزاد و نوپا</a></li>
+                                <li><a href="#"> مهارت زندگی کوک </a></li>
+                                <li><a href="#"> کتاب کار کودک </a></li>
+                                <li><a href="#"> محیط زیست کودک </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">لوح فشرده </a><i class="fa-solid fa-caret-down"></i>
+                            <ul>
+                                <li><a href="#"> فایل صوتی</a></li>
+                                <li><a href="#"> آموزشی </a></li>
+                                <li><a href="#"> کتاب گویا </a></li>
+                                <li><a href="#"> فیلم سینمایی/تئاتر </a></li>
+                                <li><a href="#"> موسیقی ایرانی </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">نوشت افزار </a><i class="fa-solid fa-caret-down"></i>
+                            <ul>
+                                <li><a href="#"> نوشتاری </a></li>
+                                <li><a href="#"> نقاشی و رنگ آمیزی </a></li>
+                                <li><a href="#"> کیف و جامدادی </a></li>
+                                <li><a href="#"> اداری و بایگانی</a></li>
+                                <li><a href="#"> دفتر و دفترچه </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">سایر محصولات </a><i class="fa-solid fa-caret-down"></i>
+                            <ul>
+                                <li><a href="#"> بازی سرگرمی</a></li>
+                                <li><a href="#"> پازل </a></li>
+                                <li><a href="#"> وسایل کادو </a></li>
+                                <li><a href="#"> نشانگر </a></li>
+                                <li><a href="#"> تزیینی </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">تقویم و سالنامه </a></li>
+                    </ul>
+
+                    <div class="menu">
+                        <ul>
+
+                            <li><a href="#">کتاب</a><i class="fa-solid fa-caret-down"></i>
+                                <ul>
+                                    <li><a href="#">ادبیات</a></li>
+                                    <li><a href="#">تاریخ</a></li>
+                                    <li><a href="#">دین و عرفان</a></li>
+                                    <li><a href="#"> فلسفه </a></li>
+                                    <li><a href="#"> جامعه شناسی </a></li>
+                                    <li><a href="#"> سیاست </a></li>
+                                    <li><a href="#"> اقتصاد </a></li>
+                                    <li><a href="#"> علم </a></li>
+                                    <li><a href="#"> هنر </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">کتاب کودک و نوجوان</a><i class="fa-solid fa-caret-down"></i>
+                                <ul>
+                                    <li><a href="#">رمان کودک</a></li>
+                                    <li><a href="#">نوزاد و نوپا</a></li>
+                                    <li><a href="#"> مهارت زندگی کوک </a></li>
+                                    <li><a href="#"> کتاب کار کودک </a></li>
+                                    <li><a href="#"> محیط زیست کودک </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">لوح فشرده </a><i class="fa-solid fa-caret-down"></i>
+                                <ul>
+                                    <li><a href="#"> فایل صوتی</a></li>
+                                    <li><a href="#"> آموزشی </a></li>
+                                    <li><a href="#"> کتاب گویا </a></li>
+                                    <li><a href="#"> فیلم سینمایی/تئاتر </a></li>
+                                    <li><a href="#"> موسیقی ایرانی </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">نوشت افزار </a><i class="fa-solid fa-caret-down"></i>
+                                <ul>
+                                    <li><a href="#"> نوشتاری </a></li>
+                                    <li><a href="#"> نقاشی و رنگ آمیزی </a></li>
+                                    <li><a href="#"> کیف و جامدادی </a></li>
+                                    <li><a href="#"> اداری و بایگانی</a></li>
+                                    <li><a href="#"> دفتر و دفترچه </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">سایر محصولات </a><i class="fa-solid fa-caret-down"></i>
+                                <ul>
+                                    <li><a href="#"> بازی سرگرمی</a></li>
+                                    <li><a href="#"> پازل </a></li>
+                                    <li><a href="#"> وسایل کادو </a></li>
+                                    <li><a href="#"> نشانگر </a></li>
+                                    <li><a href="#"> تزیینی </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">تقویم و سالنامه </a></li>
+                            <li></li>
+                        </ul>
+
+                        <select id="sct">
+                            <option value="var(--second-color)">خاکی</option>
+                            <option value=" hsl(240, 35%, 57%) ">آبی</option>
+                            <option value="var(--third-color)">خاکستری</option>
+                            <option value="rgb(88, 149, 125)">سبز</option>
+                        </select>
+                    </div>
+                    </i>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- -------aside-1-------- -->
+        <div class="row container">
+            <div class="col-3 r-col-3">
+                <div class="aside-1">
+                    <div class="aside-1-top">
+                        <i class="fa-solid fa-bars"></i>
+                        <p>دسته بندی ها</p>
+                    </div>
+                    <div class="aside-1-bottom">
+                        <ul class="sub-menu">
+                            <li><a href="#">کتاب</a><i class="fa-sharp fa-solid fa-caret-left"></i>
+                                <ul class="sub-menu2">
+                                    <li><a href="#">ادبیات</a></li>
+                                    <li><a href="#">تاریخ</a></li>
+                                    <li><a href="#">دین و عرفان</a></li>
+                                    <li><a href="#"> فلسفه </a></li>
+                                    <li><a href="#"> جامعه شناسی </a></li>
+                                    <li><a href="#"> سیاست </a></li>
+                                    <li><a href="#"> اقتصاد </a></li>
+                                    <li><a href="#"> علم </a></li>
+                                    <li><a href="#"> هنر </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">کتاب کودک و نوجوان</a><i class="fa-sharp fa-solid fa-caret-left"></i>
+                                <ul class="sub-menu2">
+                                    <li><a href="#">رمان کودک</a></li>
+                                    <li><a href="#">نوزاد و نوپا</a></li>
+                                    <li><a href="#"> مهارات زندگی کوک </a></li>
+                                    <li><a href="#"> کتاب کار کودک </a></li>
+                                    <li><a href="#"> محیط زیست کودک </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">لوح فشرده </a><i class="fa-sharp fa-solid fa-caret-left"></i>
+                                <ul class="sub-menu2">
+                                    <li><a href="#"> فایل صوتی</a></li>
+                                    <li><a href="#"> آموزشی </a></li>
+                                    <li><a href="#"> کتاب گویا </a></li>
+                                    <li><a href="#"> فیلم سینمایی/تئاتر </a></li>
+                                    <li><a href="#"> موسیقی ایرانی </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">نوشت افزار </a><i class="fa-sharp fa-solid fa-caret-left"></i>
+                                <ul class="sub-menu2">
+                                    <li><a href="#"> نوشتاری </a></li>
+                                    <li><a href="#"> نقاشی و رنگ آمیزی </a></li>
+                                    <li><a href="#"> کیف و جامدادی </a></li>
+                                    <li><a href="#"> اداری و بایگانی</a></li>
+                                    <li><a href="#"> دفتر و دفترچه </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">سایر محصولات </a><i class="fa-sharp fa-solid fa-caret-left"></i>
+                                <ul class="sub-menu2">
+                                    <li><a href="#"> بازی سرگرمی</a></li>
+                                    <li><a href="#"> پازل </a></li>
+                                    <li><a href="#"> وسایل کادو </a></li>
+                                    <li><a href="#"> نشانگر </a></li>
+                                    <li><a href="#"> تزیینی </a></li>
+                                </ul>
+                            </li>
+                            <li id="sub-menu-end"><a href="#">تقویم و سالنامه </a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <!-- -------aside-2-------- -->
+                <a href="#" class="aside-2">
+                    <img src="images/معرفی مشاهیر.png" width="100%" height="100%">
+                </a>
+                <!-- -------aside-3-------- -->
+                <div class="aside-3">
+                    <div id="aside-3-sec">
+                        <p class="a">اخبار</p>
+                        <p id="aside-3-p1">تکمیل ترجمه‌ی آخر مهدی سحابی از کتاب
+                            «نمایش افسانه ای برای وقتی دیگر»</p>
+                        <img src="images/نمایش افسانه ای.jpg" alt="book" id="aside-3-img">
+                        <p class="b" id="aside-3-p2" >خشن‌ترین رمان سلین در برخورد با خواننده</p>
+                        <a href="#">ادامه مطلب...</a>
+                        <div class="square">
+                            <i class="fa-solid fa-square">
+                                <div>
+                                    <p>تکمیل ترجمه‌ی آخر مهدی سحابی از کتاب
+                                        «نمایش افسانه ای برای وقتی دیگر»</p>
+                                    <img src="images/نمایش افسانه ای.jpg">
+                                    <p>خشن ترین رمان سلین در برخورد با خواننده</p>
+                                  </div>
+                            </i>
+                            <i class="fa-solid fa-square">
+                                <div>
+                                    <p>قسطنیطه</p>
+                                    <img src="images/قسطنطنیه.jpg">
+                                    <p>چشم انداز تمام نمای تاریخ قسطنطیه</p>
+                                  </div>
+                            </i>
+                            <i class="fa-solid fa-square">
+                                <div>
+                                    <p>تجدید رمان دن کیشوت</p>
+                                    <img src="images/دن کیشوت.jpg">
+                                    <p>نقیضه نویسی بر قصه های سلحشوری</p>
+                                  </div>
+                            </i>
+                        </div>
+                    </div>
+                <div id="slide-square">
+
+
+
+                </div>
+
+                </div>
+                <!-- -------aside-4-------- -->
+                <div class="aside-4">
+                    <img src="images/2-20.png">
+                    <textarea id="textarea" placeholder="نظرات خود را بنویسید..." maxlength="100"></textarea>
+                    <div id="textremaining">حروف باقی مانده 100</div>
+                </div>
+
+
+
+
+
+            </div>
+            <!-- -------------Main-1--------- -->
+            <div class="col-9 main-r-col-9">
+                <div class="main-1">
+                    <div class="main-1__top">
+                        <!-- <img src="images/وقت خوب مدرسه.png" width="20%" height="20%"> -->
+                    </div>
+                    <div class="main-1__bottom">
+                        <p>ضمانت سالم بودن کالا</p>
+                        <p>ارسال با پست پیشتاز برای شهرستان ها</p>
+                        <p>تحویل حضوری در محل فروشگاه پردیس کتاب</p>
+                    </div>
+                </div>
+                <div class="main-1__second" id="second">
+                    <img src="images/DK.png" width="100%" height="100%">
+                    <i class="fa-solid fa-angles-right"></i>
+                    <i class="fa-solid fa-angles-left"></i>
+                </div>
+                <section id="sec2">
+                    <img src="images/چالز دیکنز.png" width="0%" height="0%">
+                    <img src="images/وقت خوب مدرسه.png" width="0%" height="0%">
+                    <img src="images/puzzle.png" width="0%" height="0%">
+
+                </section>
+                <!-- -------------Main-2---------  -->
+                <div class="main-2">
+                    <div class="main-2__top">
+                        <a href="#">محصولات جدید</a>
+                    </div>
+                    <div class="main-2__bottom">
+                        <div class="book1">
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book1.jpg">
+                            <a href="#" title="قصه های قطاری"><span class="new">جدید</span>قصه های قطاری</a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">20,000تومان</p>
+
+                        </div>
+                        <div class="book2">
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book2.jpg">
+                            <a href="#" title="قرآن كريم"><span class="new">جدید</span>قرآن کریم </a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">480,000تومان</p>
+                        </div>
+                        <div>
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book3.jpg">
+                            <a href="#" title="فاشيسم ابدي"><span class="new">جدید</span> فاشیسم ابدی </a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">110,000تومان</p>
+                        </div>
+                        <div>
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book4.jpg">
+                            <a href="#" title="انديشه اورول (زندگي و نامه ها اسطوره و ميراث)"><span
+                                    class="new">جدید</span>
+                                اندیشه اورول (زندگی و..</a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">120,000تومان</p>
+                        </div>
+                        <div>
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book5.jpg">
+                            <a href="#" title="اهميت بامزه بودن (چرا در زندگي به لطيفه بيشتري نياز داريم)"><span
+                                    class="new">جدید</span>اهمیت بامزه بودن</a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">80,000تومان</p>
+                        </div>
+                        <div>
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book6.jpg">
+                            <a href="#" title="تذكره پيمانه (ساقي نامه ها و ساقي نامه سرايان)"><span
+                                    class="new">جدید</span>تذکره پیمانه</a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">100,000تومان</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------main-3------ -->
+                <div class="main-2">
+                    <div class="main-2__top">
+                        <a href="#">پرفروش ها </a>
+                    </div>
+                    <div class="main-2__bottom">
+                        <div class="book1">
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book7.jpg">
+                            <a href="#" title="چشم هایش"><span class="new">جدید</span> چشم هایش </a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">97,500تومان</p>
+
+                        </div>
+                        <div class="book2">
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book8.jpg">
+                            <a href="#" title="سمفونی مردگان"><span class="new">جدید</span>سمفونی مردگان </a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">68,000تومان</p>
+                        </div>
+                        <div>
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book9.jpg">
+                            <a href="#" title="ما تمامش مي كنيم"><span class="new">جدید</span> ما تمامش مي كنيم </a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">136,000تومان</p>
+                        </div>
+                        <div>
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book10.jpg">
+                            <a href="#" title="کیمیاگر"><span class="new">جدید</span> کیمیاگر</a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">120,000تومان</p>
+                        </div>
+                        <div>
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book11.jpg">
+                            <a href="#" title="وقتي نيچه گريست"><span class="new">جدید</span> وقتي نيچه گريست </a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">150,000تومان</p>
+                        </div>
+                        <div>
+                            <div class="phj">
+                                <div class="shop">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-heart ht"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+
+                            </div>
+                            <img src="images/book12.jpg">
+                            <a href="#" title="درمان شوپنهاور"><span class="new">جدید</span>درمان شوپنهاور </a>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="cost">195,000تومان</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------main-4---------- -->
+                <div class="main-4">
+                    <div class="right-orange">
+                        <img src="images/خرید دفتر.png" width="100%" height="100%">
+                    </div>
+                    <div class="left-blue">
+                        <img src="images/پیشنهاد کتاب.png" width="100%" height="100%">
+                    </div>
+                </div>
+                <div class="main-5">
+                    <img src="images/ققنوس.png" width="100%" height="100%">
+                </div>
+
+            </div>
+        </div>
+        <!-- --------footer---------- -->
+        <div class="footer col-12">
+            <div class="footer-container">
+                <div class="contact">
+                    <h3>ارتباط با ما</h3>
+                    <div class="gp">
+                        <i class="fa-solid fa-location-pin"></i>
+                        <p class="whitespace">
+                            شعبۀ مرکزی: مشهد - خیابان ابن‌سینا - بین ابن‌سینا ۴و۶ (مقابل‌سه‌راه‌ادبیات)
+
+                            شعبۀ وکیل‌آباد: مشهد -نبش وکیل‌آباد۳۴(چراغچی)
+                        </p>
+                    </div>
+                    <div class="gp">
+                        <i class="fas fa-mobile"></i>
+                        <p class="whitespace">
+                            فروشگاه: 05138482425
+
+                            پشتیبانی سایت: داخلی ۳
+                        </p>
+                    </div>
+                    <div class="gp">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="whitespace">
+                            webcare@pardis-ketab.com
+                        </p>
+                    </div>
+                </div>
+                <div class="service">
+                    <h3>
+                        خدمات
+                    </h3>
+                    <ul>
+                        <li><a href="#">راهنمای فروشگاه</a></li>
+                        <li><a href="#">قوانین سایت</a></li>
+                        <li><a href="#">اخبار</a></li>
+                    </ul>
+                </div>
+                <div class="pardis">
+                    <h3>
+                        پردیس کتاب
+                    </h3>
+                    <ul>
+                        <li><a href="#">جمعه های پردیس کتاب</a></li>
+                        <li><a href="#">درباره ما </a></li>
+
+                    </ul>
+                </div>
+                <div class="support">
+                    <h3>
+                        پشتیبانی
+                    </h3>
+                    <ul>
+                        <li><a href="#"> پرسش های متداول </a></li>
+                        <li><a href="#">تماس با ما </a></li>
+
+                    </ul>
+                </div>
+                <div class="namad">
+
+                    <img src="images/logo (1).png">
+                </div>
+            </div>
+
+        </div>
+        <!-- ------Socialmedia------- -->
+        <div class="media col-12">
+            <div class="media-pics">
+                <a href="#"><img src="images/telgram.jpg"></a>
+                <a href="#"><img src="images/instagram.webp"></a>
+                <a href="#"><img src="images/linkdin.png"></a>
+            </div>
+            <div>
+                <p>
+                    طراحی شده توسط <span class="bold">شرکت راهکار شایا</span>
+                </p>
+            </div>
+            <div class="margin-left">
+                <p>
+                    حق چاپ محفوظ است
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="java/java1.js"></script>
+</body>
+
+</html>
